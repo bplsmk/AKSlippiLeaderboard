@@ -65,7 +65,18 @@ export default function HomePage() {
       <div className="p-1 text-gray-300"> Updated {updateDesc}</div>
       <Table players={players} />
       <div className="p-4 text-gray-300 flex flex-col">
-        <div>Built by blorppppp</div>
+        <div>
+          <a href="https://github.com/bplsmk/BPSlippiLeaderboard" target="_blank" rel="noreferrer"
+              className="link">
+            AKSlippiLeaderboard
+          </a>
+          {' '}modified by bplsmk is a fork of{' '}
+          <a href="https://github.com/Grantismo/CoSlippiLeaderboard" target="_blank" rel="noreferrer"
+              className="link">
+            CoSlippiLeaderboard
+          </a>
+          {' '}built by blorppppp
+        </div>
         <div>
           <a href="https://www.buymeacoffee.com/blorppppp" target="_blank" rel="noreferrer"
              className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">

@@ -60,7 +60,7 @@ export default function HomePage() {
       <h1 className="text-3xl m-4 text-center text-white">
         {settings.title}
       </h1>
-      <div className='text-white hover:text-blue-50 hover:underline'><a href="https://forms.gle/ZJX5dcBxgprrbLRk7" target='_blank'>-> Register your connect code here <-</a></div>
+      <div className='text-white hover:text-blue-50 hover:underline'><a href="https://forms.gle/ZJX5dcBxgprrbLRk7" target='_blank'>Register your connect code here</a></div>
 
       <div className="p-1 text-gray-300"> Updated {updateDesc}</div>
       <Table players={players} />

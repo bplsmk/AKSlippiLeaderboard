@@ -7,7 +7,7 @@ import timestamp from '../../../../cron/data/timestamp.json';
 import dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime' // import plugin
 import * as settings from '../../../../settings'
-import ColoradoFlag from '../../../../images/Flag_of_Colorado.svg';
+import AlaskaFlag from '../../../../images/Flag_of_Alaska.svg';
 dayjs.extend(relativeTime)
 
 
@@ -56,10 +56,12 @@ export default function HomePage() {
 
   return (
     <div className="flex flex-col items-center h-screen p-8">
-      <img className="h-48" src={ColoradoFlag} alt="colorado flag" />
+      <img className="h-48" src={AlaskaFlag} alt="alaska flag" />
       <h1 className="text-3xl m-4 text-center text-white">
         {settings.title}
       </h1>
+      <div className='text-white hover:text-blue-50 hover:underline'><a href="https://forms.gle/ZJX5dcBxgprrbLRk7" target='_blank'>Register your connect code</a></div>
+
       <div className="p-1 text-gray-300"> Updated {updateDesc}</div>
       <Table players={players} />
       <div className="p-4 text-gray-300 flex flex-col">
@@ -67,7 +69,7 @@ export default function HomePage() {
         <div>
           <a href="https://www.buymeacoffee.com/blorppppp" target="_blank" rel="noreferrer"
              className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
-            Buy me a coffee
+            Buy blorppppp a coffee
           </a>☕
         </div>
       </div>

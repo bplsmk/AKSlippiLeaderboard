@@ -60,26 +60,26 @@ export default function HomePage() {
       <h1 className="text-3xl m-4 text-center text-white">
         {settings.title}
       </h1>
-      <div className='text-white hover:text-blue-50 hover:underline'><a href="https://forms.gle/ZJX5dcBxgprrbLRk7" target='_blank'>Register your connect code</a></div>
+      <div className='text-white hover:text-blue-50 hover:underline'><a href="https://forms.gle/ZJX5dcBxgprrbLRk7" target='_blank'></a>-> Register your connect code here <-</a></div>
 
       <div className="p-1 text-gray-300"> Updated {updateDesc}</div>
       <Table players={players} />
       <div className="p-4 text-gray-300 flex flex-col">
         <div>
           <a href="https://github.com/bplsmk/BPSlippiLeaderboard" target="_blank" rel="noreferrer"
-              className="link">
+              className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
             AKSlippiLeaderboard
           </a>
           {' '}modified by bplsmk is a fork of{' '}
           <a href="https://github.com/Grantismo/CoSlippiLeaderboard" target="_blank" rel="noreferrer"
-              className="link">
+              className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
             CoSlippiLeaderboard
           </a>
           {' '}built by blorppppp
         </div>
         <div>
           <a href="https://www.buymeacoffee.com/blorppppp" target="_blank" rel="noreferrer"
-             className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
+             className="flex flex-col items-center text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
             Buy blorppppp a coffee
           </a>☕
         </div>

@@ -3,7 +3,7 @@ name: Update slippi rankings
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 * * * * /home/user/Desktop/AKSlippiLeaderboard/cron/run.sh"
+    - cron: "0 * * * *"
 
 jobs:
   update:

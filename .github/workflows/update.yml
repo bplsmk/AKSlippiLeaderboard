@@ -36,7 +36,7 @@ jobs:
     - name: Download player data from artifacts branch
       run: |
         mkdir -p cron/data
-        git fetch origin artifacts
+        git fetch origin artifacts || echo "Branch doesnt exist yet"
         git show origin/artifacts:players-old.json > cron/data/players-old.json || echo '{}' > cron/data/players-old.json
         git show origin/artifacts:timestamp.json > cron/data/timestamp.json || echo '{}' > cron/data/timestamp.json
 

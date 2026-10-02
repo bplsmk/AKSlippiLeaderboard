@@ -66,15 +66,12 @@ export default function HomePage() {
       <Table players={players} />
       <div className="p-4 text-gray-300 flex flex-col">
         <div>
-          <a href="https://github.com/bplsmk/BPSlippiLeaderboard" target="_blank" rel="noreferrer"
-              className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
-            AKSlippiLeaderboard
+          <a href="https://github.com/bplsmk/AKSlippiLeaderboard" target="_blank" rel="noreferrer"
+              className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">AKSlippiLeaderboard
           </a>
           {' '}modified by bplsmk is a fork of{' '}
           <a href="https://github.com/Grantismo/CoSlippiLeaderboard" target="_blank" rel="noreferrer"
-              className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">
-            CoSlippiLeaderboard
-          </a>
+              className="text-gray-400 hover:text-indigo-700 mr-2 hover:underline">CoSlippiLeaderboard</a>
           {' '}built by blorppppp
         </div>
         <div>
